@@ -16,6 +16,20 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 5. Identify dependencies and integration points
 6. Create release plan and milestone map
 
+### UX Designer Involvement
+**UX Designers** should be engaged early in planning to ensure user-centered design:
+- Conduct user research to validate problem statements and assumptions
+- Define acceptance criteria for UX requirements (e.g., usability, accessibility, interaction patterns)
+- Provide design handoff artifacts: wireframes, mockups, prototypes, design specs
+- Participate in sprint planning to align design and development timelines
+
+### Technical Writer Involvement
+**Technical Writers** should be consulted during planning to scope documentation needs:
+- Identify user-facing features that require documentation updates
+- Estimate documentation effort (user guides, release notes, FAQs)
+- Align on documentation deliverables and timelines
+- Schedule documentation reviews with subject matter experts
+
 ## Backlog Item Template
 - Title:
 - Description:
