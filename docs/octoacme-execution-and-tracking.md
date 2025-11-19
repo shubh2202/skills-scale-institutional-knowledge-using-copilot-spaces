@@ -23,6 +23,22 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
 
+### Quality Champion Responsibilities
+The **Quality Champion** owns the test strategy and quality standards for the project:
+- Defines test-plan ownership and ensures coverage across unit, integration, and E2E tests
+- Establishes quality gates: criteria that must be met before a release proceeds
+- Advocates for test automation and monitors quality metrics (coverage, flakiness, defect trends)
+- Coordinates with **Security Lead** to track security scan remediation and integrate security testing into CI/CD
+
+### QA Gating Guidance
+Quality gates should block a release when:
+- Critical or high-severity defects remain unresolved
+- Test coverage falls below agreed thresholds
+- Automated tests are failing or flaky without investigation
+- Security vulnerabilities are unaddressed
+
+If a release is blocked, the Quality Champion escalates to the Project Manager and stakeholders with a clear remediation plan and timeline.
+
 ## Reporting & Metrics
 - Track velocity and burndown
 - Monitor success metrics identified in the Project One-pager
